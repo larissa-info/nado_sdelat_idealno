@@ -41,6 +41,8 @@ video {
 .page__title::after {
   content: "*";
   color: #000;
+  position: absolute;
+  z-index: 3;
 }
 
 .page__title:hover::before {
@@ -60,8 +62,10 @@ video {
   border: 2px solid #000;
   text-align: start;
   background: #fff;
-  position: absolute;
+
   top: 182px;
   right: 22px;
   box-shadow: 0 12px #000;
+  position: absolute;
+ z-index: 3;
 }
